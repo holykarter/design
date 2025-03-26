@@ -39,10 +39,19 @@ end
 
 in this article  , we start by playing with the image module in julia 
 transform and image into an matrix 
- 
+#training the data , : just to measures the loss_function
+in article their use the ADAM optimizer
+verify the acquieracy
+to make this way
+we have to check  if the  model respond to ur need. or choose one that fit for us
+- convolutional neural network
+
 ** hugging face for the base of sql in hugging face
 L G
 
 issue : 
  -i don;t know how to downlaod on kallgle or huggingface of mnsit for training 
-- i donèt know the sql command that allopw me to acces the data 
+- i don't know the sql command that allopw me to acces the data 
+
+
+
