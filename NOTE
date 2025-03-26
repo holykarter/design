@@ -1,0 +1,48 @@
+article  :
+https://www.freecodecamp.org/news/deep-learning-with-julia/
+computer visualisation in julia
+
+- feed forward 
+- convu;tional , 
+- recurrent 
+
+6 step : 
+  collect 
+  prepare the dataset and cleaning 
+make the model 
+train it 
+and check accuracy 
+export when goood 
+ # certain transforamation to do ;
+resize and covert color, and blacl. and white , cropping 
+prepare the image data in machine learning, 
+path = "training"
+X = []
+y = []
+for label in readdir(path) # for open a file 
+    for file in readdir("$path/$label") # opan a file again 
+        img = load("$path/$label/$file") # load the image  
+        data = reshape(Float32.(channelview(img)),28,28,1) # matrixed in file 
+        if length(X) == 0
+            X = data
+        else
+            X = cat(X,data,dims=3) # what doing cat
+        end
+        push!(y,parse(Float32,label))
+    end
+end
+
+
+
+  # Flux.jl framework
+
+
+in this article  , we start by playing with the image module in julia 
+transform and image into an matrix 
+ 
+** hugging face for the base of sql in hugging face
+L G
+
+issue : 
+ -i don;t know how to downlaod on kallgle or huggingface of mnsit for training 
+- i donèt know the sql command that allopw me to acces the data 
