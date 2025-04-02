@@ -1,0 +1,8 @@
+-google console and vm machine , 
+- i stop on when i have to convert the 60 k element file into a array and store in the liste ( image.jl(no Case))
+- --------------------------- things to do -------------------------
+ # add the file into the git repository 
+ # make the work flow to training my data and start some test before going with the real data , 
+ # learn an little about deep learning in general and in particular , data treatment 
+ # i have procrastinated on my computer 
+ 
